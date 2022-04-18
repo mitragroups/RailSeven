@@ -5,6 +5,7 @@ class CreateBooks < ActiveRecord::Migration[7.0]
       t.integer :page, null: false
       t.integer :price, default: 0
       t.text :descriptiion, default: 'Silahkan masukkan deskripsi'
+      
       t.timestamps
     end
   end
